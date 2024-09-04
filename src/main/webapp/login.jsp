@@ -12,16 +12,12 @@
 <div class="container">
     <div class="left-side">
         <img class="logo-img" src="Assets/logo_abc.png" alt="Logo">
-        <form>
-            <label>
-                <input type="text" placeholder="Username/E-mail" required>
-            </label>
-            <label>
-                <input type="password" placeholder="Password" required>
-            </label>
+        <form action="login" method="post">
+            <input type="text" id="username" name="username" placeholder="Username" required>
+            <input type="password" id="password" name="password" placeholder="Password" required>
             <button type="submit">Login</button>
             <hr>
-            <button id="" type="button">Create new account</button>
+            <button id="" type="submit" value="Login">Create new account</button>
         </form>
         <footer>
             <p>© Product of ABC Restaurants group 2024</p>
